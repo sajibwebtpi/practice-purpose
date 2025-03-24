@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3));
+    padding: 10px;
+}
+.menu-bar ul, a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 25px;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    height: 50vh;
+    width: 250px;
+    background-color: antiquewhite;
+    margin-top:10px ;
+}
+.para{
+    color:gray;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+}
